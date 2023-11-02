@@ -1,3 +1,5 @@
-import BasicApplication from './view/BasicApplication.js';
+import "./main.css";
 
-Hooks.once('ready', () => new BasicApplication().render(true, { focus: true }));
+Hooks.once("init", () => {
+   console.log("init");
+});
